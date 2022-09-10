@@ -8,6 +8,11 @@ import './App.css'
 import Layout from "./components/layout";
 
 function App() {
+
+  if(user == null){
+    createNewUser()
+  }
+
   return (
     <AuthProvider>
       <BrowserRouter>

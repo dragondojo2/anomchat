@@ -7,10 +7,6 @@ import { useContext } from "react"
 function Layout() {
   const {user, createNewUser} = useContext(AuthContext)
 
-  if(user == null){
-    createNewUser()
-  }
-
   return (
     <div className="flex">
       <Sidebar />
