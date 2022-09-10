@@ -5,6 +5,11 @@ import './styles.css'
 import { useContext } from "react"
 
 function Layout() {
+  const { createNewUser } = useContext(AuthContext)
+
+
+  createNewUser()
+
   return (
     <div className="flex">
       <Sidebar />
