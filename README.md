@@ -1,7 +1,10 @@
-# react-calculator
-React Calculator
+# AnomChat
+Chat completely anonymously!
 
-You can use it by clicking [here](https://github.com/remix-run/react-router#readme "Check out the project!")
+Create your room and invite your friend to it. 
+After all you can just leave and your done!
+
+You can use it by clicking [here](http://anomchat.vercel.app/ "Check out the project!")
 
 ## Features
 1. Create Rooms
